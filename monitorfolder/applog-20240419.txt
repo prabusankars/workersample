@@ -1,0 +1,172 @@
+2024-04-19 03:27:59.609 +00:00 [DBG] Hosting starting
+2024-04-19 03:27:59.665 +00:00 [INF] Worker running at: "2024-04-19T03:27:59.6619370+00:00"
+2024-04-19 03:27:59.673 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-19 03:27:59.673 +00:00 [INF] Hosting environment: Development
+2024-04-19 03:27:59.673 +00:00 [INF] Content root path: /workspace/dotnetfolder/workersample
+2024-04-19 03:27:59.673 +00:00 [DBG] Hosting started
+2024-04-19 03:28:00.671 +00:00 [INF] Worker running at: "2024-04-19T03:28:00.6718607+00:00"
+2024-04-19 03:28:01.672 +00:00 [INF] Worker running at: "2024-04-19T03:28:01.6726867+00:00"
+2024-04-19 03:28:02.673 +00:00 [INF] Worker running at: "2024-04-19T03:28:02.6733320+00:00"
+2024-04-19 03:28:03.673 +00:00 [INF] Worker running at: "2024-04-19T03:28:03.6738636+00:00"
+2024-04-19 03:28:04.674 +00:00 [INF] Worker running at: "2024-04-19T03:28:04.6744821+00:00"
+2024-04-19 03:28:05.675 +00:00 [INF] Worker running at: "2024-04-19T03:28:05.6751190+00:00"
+2024-04-19 03:28:06.675 +00:00 [INF] Worker running at: "2024-04-19T03:28:06.6756763+00:00"
+2024-04-19 03:28:07.676 +00:00 [INF] Worker running at: "2024-04-19T03:28:07.6761979+00:00"
+2024-04-19 03:28:08.676 +00:00 [INF] Worker running at: "2024-04-19T03:28:08.6768046+00:00"
+2024-04-19 03:28:09.677 +00:00 [INF] Worker running at: "2024-04-19T03:28:09.6773453+00:00"
+2024-04-19 03:28:10.518 +00:00 [INF] Application is shutting down...
+2024-04-19 03:28:10.520 +00:00 [DBG] Hosting stopping
+2024-04-19 03:28:10.527 +00:00 [DBG] Hosting stopped
+2024-04-19 03:47:04.801 +00:00 [DBG] Hosting starting
+2024-04-19 03:47:04.868 +00:00 [INF] Worker running at: "2024-04-19T03:47:04.8638092+00:00"
+2024-04-19 03:47:04.872 +00:00 [INF] Staring FileWatch on folder
+2024-04-19 03:47:04.875 +00:00 [ERR] Hosting failed to start
+System.ArgumentException: The directory name './monitorfolder' does not exist. (Parameter 'Path')
+   at System.IO.FileSystemWatcher.set_Path(String value)
+   at workersample.FileWatchService.StartFileWatcher() in /workspace/dotnetfolder/workersample/FileWatchService.cs:line 14
+   at workersample.Worker.ExecuteAsync(CancellationToken stoppingToken) in /workspace/dotnetfolder/workersample/Worker.cs:line 27
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-04-19 03:47:24.162 +00:00 [DBG] Hosting starting
+2024-04-19 03:47:24.240 +00:00 [INF] Worker running at: "2024-04-19T03:47:24.2358651+00:00"
+2024-04-19 03:47:24.244 +00:00 [INF] Staring FileWatch on folder
+2024-04-19 03:47:24.245 +00:00 [INF] File Watch Started
+2024-04-19 03:47:24.249 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-19 03:47:24.249 +00:00 [INF] Hosting environment: Development
+2024-04-19 03:47:24.249 +00:00 [INF] Content root path: /workspace/dotnetfolder/workersample
+2024-04-19 03:47:24.250 +00:00 [DBG] Hosting started
+2024-04-19 03:47:25.248 +00:00 [INF] Worker running at: "2024-04-19T03:47:25.2482640+00:00"
+2024-04-19 03:47:25.248 +00:00 [INF] Staring FileWatch on folder
+2024-04-19 03:47:25.249 +00:00 [INF] File Watch Started
+2024-04-19 03:47:26.249 +00:00 [INF] Worker running at: "2024-04-19T03:47:26.2498292+00:00"
+2024-04-19 03:47:26.250 +00:00 [INF] Staring FileWatch on folder
+2024-04-19 03:47:26.250 +00:00 [INF] File Watch Started
+2024-04-19 03:47:27.251 +00:00 [INF] Worker running at: "2024-04-19T03:47:27.2511502+00:00"
+2024-04-19 03:47:27.251 +00:00 [INF] Staring FileWatch on folder
+2024-04-19 03:47:27.252 +00:00 [INF] File Watch Started
+2024-04-19 03:47:28.252 +00:00 [INF] Worker running at: "2024-04-19T03:47:28.2524160+00:00"
+2024-04-19 03:47:28.253 +00:00 [INF] Staring FileWatch on folder
+2024-04-19 03:47:28.253 +00:00 [INF] File Watch Started
+2024-04-19 03:47:29.254 +00:00 [INF] Worker running at: "2024-04-19T03:47:29.2540010+00:00"
+2024-04-19 03:47:29.254 +00:00 [INF] Staring FileWatch on folder
+2024-04-19 03:47:29.254 +00:00 [INF] File Watch Started
+2024-04-19 03:47:30.255 +00:00 [INF] Worker running at: "2024-04-19T03:47:30.2551621+00:00"
+2024-04-19 03:47:30.255 +00:00 [INF] Staring FileWatch on folder
+2024-04-19 03:47:30.256 +00:00 [INF] File Watch Started
+2024-04-19 03:47:31.256 +00:00 [INF] Worker running at: "2024-04-19T03:47:31.2565389+00:00"
+2024-04-19 03:47:31.256 +00:00 [INF] Staring FileWatch on folder
+2024-04-19 03:47:31.257 +00:00 [INF] File Watch Started
+2024-04-19 03:47:32.247 +00:00 [INF] Application is shutting down...
+2024-04-19 03:47:32.249 +00:00 [DBG] Hosting stopping
+2024-04-19 03:47:32.255 +00:00 [DBG] Hosting stopped
+2024-04-19 03:47:59.681 +00:00 [DBG] Hosting starting
+2024-04-19 03:47:59.748 +00:00 [INF] Worker running at: "2024-04-19T03:47:59.7441345+00:00"
+2024-04-19 03:47:59.752 +00:00 [INF] Staring FileWatch on folder
+2024-04-19 03:47:59.753 +00:00 [INF] File Watch Started
+2024-04-19 03:47:59.757 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-19 03:47:59.758 +00:00 [INF] Hosting environment: Development
+2024-04-19 03:47:59.758 +00:00 [INF] Content root path: /workspace/dotnetfolder/workersample
+2024-04-19 03:47:59.758 +00:00 [DBG] Hosting started
+2024-04-19 03:48:00.756 +00:00 [INF] Worker running at: "2024-04-19T03:48:00.7564699+00:00"
+2024-04-19 03:48:01.753 +00:00 [INF] Worker running at: "2024-04-19T03:48:01.7533579+00:00"
+2024-04-19 03:48:02.754 +00:00 [INF] Worker running at: "2024-04-19T03:48:02.7539557+00:00"
+2024-04-19 03:48:03.754 +00:00 [INF] Worker running at: "2024-04-19T03:48:03.7544771+00:00"
+2024-04-19 03:48:04.755 +00:00 [INF] Worker running at: "2024-04-19T03:48:04.7552090+00:00"
+2024-04-19 03:48:05.755 +00:00 [INF] Worker running at: "2024-04-19T03:48:05.7557918+00:00"
+2024-04-19 03:48:06.756 +00:00 [INF] Worker running at: "2024-04-19T03:48:06.7563233+00:00"
+2024-04-19 03:48:07.756 +00:00 [INF] Worker running at: "2024-04-19T03:48:07.7568181+00:00"
+2024-04-19 03:48:08.757 +00:00 [INF] Worker running at: "2024-04-19T03:48:08.7577386+00:00"
+2024-04-19 03:48:09.758 +00:00 [INF] Worker running at: "2024-04-19T03:48:09.7582306+00:00"
+2024-04-19 03:48:10.758 +00:00 [INF] Worker running at: "2024-04-19T03:48:10.7587866+00:00"
+2024-04-19 03:48:11.759 +00:00 [INF] Worker running at: "2024-04-19T03:48:11.7593751+00:00"
+2024-04-19 03:48:12.759 +00:00 [INF] Worker running at: "2024-04-19T03:48:12.7598467+00:00"
+2024-04-19 03:48:12.859 +00:00 [INF] file Created :./monitorfolder/123.csv
+2024-04-19 03:48:13.760 +00:00 [INF] Worker running at: "2024-04-19T03:48:13.7603445+00:00"
+2024-04-19 03:48:14.760 +00:00 [INF] Worker running at: "2024-04-19T03:48:14.7609030+00:00"
+2024-04-19 03:48:15.762 +00:00 [INF] Worker running at: "2024-04-19T03:48:15.7620795+00:00"
+2024-04-19 03:48:16.762 +00:00 [INF] Worker running at: "2024-04-19T03:48:16.7625976+00:00"
+2024-04-19 03:48:17.763 +00:00 [INF] Worker running at: "2024-04-19T03:48:17.7631540+00:00"
+2024-04-19 03:48:18.763 +00:00 [INF] Worker running at: "2024-04-19T03:48:18.7636526+00:00"
+2024-04-19 03:48:19.764 +00:00 [INF] Worker running at: "2024-04-19T03:48:19.7641055+00:00"
+2024-04-19 03:48:20.764 +00:00 [INF] Worker running at: "2024-04-19T03:48:20.7646790+00:00"
+2024-04-19 03:48:21.765 +00:00 [INF] Worker running at: "2024-04-19T03:48:21.7652476+00:00"
+2024-04-19 03:48:22.765 +00:00 [INF] Worker running at: "2024-04-19T03:48:22.7657152+00:00"
+2024-04-19 03:48:23.766 +00:00 [INF] Worker running at: "2024-04-19T03:48:23.7661604+00:00"
+2024-04-19 03:48:24.766 +00:00 [INF] Worker running at: "2024-04-19T03:48:24.7666190+00:00"
+2024-04-19 03:48:25.767 +00:00 [INF] Worker running at: "2024-04-19T03:48:25.7670944+00:00"
+2024-04-19 03:48:26.767 +00:00 [INF] Worker running at: "2024-04-19T03:48:26.7676019+00:00"
+2024-04-19 03:48:27.768 +00:00 [INF] Worker running at: "2024-04-19T03:48:27.7680571+00:00"
+2024-04-19 03:48:28.768 +00:00 [INF] Worker running at: "2024-04-19T03:48:28.7686003+00:00"
+2024-04-19 03:48:29.769 +00:00 [INF] Worker running at: "2024-04-19T03:48:29.7692969+00:00"
+2024-04-19 03:48:30.770 +00:00 [INF] Worker running at: "2024-04-19T03:48:30.7701350+00:00"
+2024-04-19 03:48:31.770 +00:00 [INF] Worker running at: "2024-04-19T03:48:31.7707960+00:00"
+2024-04-19 03:48:32.771 +00:00 [INF] Worker running at: "2024-04-19T03:48:32.7712542+00:00"
+2024-04-19 03:48:33.773 +00:00 [INF] Worker running at: "2024-04-19T03:48:33.7732621+00:00"
+2024-04-19 03:48:34.773 +00:00 [INF] Worker running at: "2024-04-19T03:48:34.7736505+00:00"
+2024-04-19 03:48:35.774 +00:00 [INF] Worker running at: "2024-04-19T03:48:35.7741126+00:00"
+2024-04-19 03:48:36.774 +00:00 [INF] Worker running at: "2024-04-19T03:48:36.7745131+00:00"
+2024-04-19 03:48:37.774 +00:00 [INF] Worker running at: "2024-04-19T03:48:37.7749459+00:00"
+2024-04-19 03:48:38.775 +00:00 [INF] Worker running at: "2024-04-19T03:48:38.7754004+00:00"
+2024-04-19 03:48:39.775 +00:00 [INF] Worker running at: "2024-04-19T03:48:39.7757857+00:00"
+2024-04-19 03:48:40.776 +00:00 [INF] Worker running at: "2024-04-19T03:48:40.7762113+00:00"
+2024-04-19 03:48:41.776 +00:00 [INF] Worker running at: "2024-04-19T03:48:41.7766272+00:00"
+2024-04-19 03:48:42.777 +00:00 [INF] Worker running at: "2024-04-19T03:48:42.7771949+00:00"
+2024-04-19 03:48:43.777 +00:00 [INF] Worker running at: "2024-04-19T03:48:43.7776346+00:00"
+2024-04-19 03:48:44.794 +00:00 [INF] Worker running at: "2024-04-19T03:48:44.7942243+00:00"
+2024-04-19 03:48:45.794 +00:00 [INF] Worker running at: "2024-04-19T03:48:45.7948517+00:00"
+2024-04-19 03:48:46.795 +00:00 [INF] Worker running at: "2024-04-19T03:48:46.7953144+00:00"
+2024-04-19 03:48:47.796 +00:00 [INF] Worker running at: "2024-04-19T03:48:47.7959828+00:00"
+2024-04-19 03:48:48.796 +00:00 [INF] Worker running at: "2024-04-19T03:48:48.7963281+00:00"
+2024-04-19 03:48:49.796 +00:00 [INF] Worker running at: "2024-04-19T03:48:49.7967328+00:00"
+2024-04-19 03:48:50.797 +00:00 [INF] Worker running at: "2024-04-19T03:48:50.7972062+00:00"
+2024-04-19 03:48:51.797 +00:00 [INF] Worker running at: "2024-04-19T03:48:51.7976393+00:00"
+2024-04-19 03:48:52.798 +00:00 [INF] Worker running at: "2024-04-19T03:48:52.7981214+00:00"
+2024-04-19 03:48:53.798 +00:00 [INF] Worker running at: "2024-04-19T03:48:53.7985903+00:00"
+2024-04-19 03:48:54.799 +00:00 [INF] Worker running at: "2024-04-19T03:48:54.7990465+00:00"
+2024-04-19 03:48:55.799 +00:00 [INF] Worker running at: "2024-04-19T03:48:55.7994671+00:00"
+2024-04-19 03:48:56.799 +00:00 [INF] Worker running at: "2024-04-19T03:48:56.7998752+00:00"
+2024-04-19 03:48:57.800 +00:00 [INF] Worker running at: "2024-04-19T03:48:57.8003261+00:00"
+2024-04-19 03:48:58.800 +00:00 [INF] Worker running at: "2024-04-19T03:48:58.8007625+00:00"
+2024-04-19 03:48:59.801 +00:00 [INF] Worker running at: "2024-04-19T03:48:59.8015614+00:00"
+2024-04-19 03:49:00.802 +00:00 [INF] Worker running at: "2024-04-19T03:49:00.8020603+00:00"
+2024-04-19 03:49:01.802 +00:00 [INF] Worker running at: "2024-04-19T03:49:01.8023882+00:00"
+2024-04-19 03:49:02.802 +00:00 [INF] Worker running at: "2024-04-19T03:49:02.8026907+00:00"
+2024-04-19 03:49:03.804 +00:00 [INF] Worker running at: "2024-04-19T03:49:03.8047404+00:00"
+2024-04-19 03:49:04.805 +00:00 [INF] Worker running at: "2024-04-19T03:49:04.8051984+00:00"
+2024-04-19 03:49:05.805 +00:00 [INF] Worker running at: "2024-04-19T03:49:05.8055198+00:00"
+2024-04-19 03:49:06.805 +00:00 [INF] Worker running at: "2024-04-19T03:49:06.8058367+00:00"
+2024-04-19 03:49:07.806 +00:00 [INF] Worker running at: "2024-04-19T03:49:07.8062127+00:00"
+2024-04-19 03:49:08.806 +00:00 [INF] Worker running at: "2024-04-19T03:49:08.8065587+00:00"
+2024-04-19 03:49:09.806 +00:00 [INF] Worker running at: "2024-04-19T03:49:09.8069304+00:00"
+2024-04-19 03:49:10.807 +00:00 [INF] Worker running at: "2024-04-19T03:49:10.8073473+00:00"
+2024-04-19 03:49:11.808 +00:00 [INF] Worker running at: "2024-04-19T03:49:11.8087088+00:00"
+2024-04-19 03:49:12.809 +00:00 [INF] Worker running at: "2024-04-19T03:49:12.8090625+00:00"
+2024-04-19 03:49:13.809 +00:00 [INF] Worker running at: "2024-04-19T03:49:13.8093804+00:00"
+2024-04-19 03:49:14.809 +00:00 [INF] Worker running at: "2024-04-19T03:49:14.8096699+00:00"
+2024-04-19 03:49:15.809 +00:00 [INF] Worker running at: "2024-04-19T03:49:15.8099611+00:00"
+2024-04-19 03:49:16.810 +00:00 [INF] Worker running at: "2024-04-19T03:49:16.8102491+00:00"
+2024-04-19 03:49:17.810 +00:00 [INF] Worker running at: "2024-04-19T03:49:17.8105478+00:00"
+2024-04-19 03:49:18.810 +00:00 [INF] Worker running at: "2024-04-19T03:49:18.8108489+00:00"
+2024-04-19 03:49:19.811 +00:00 [INF] Worker running at: "2024-04-19T03:49:19.8111780+00:00"
+2024-04-19 03:49:20.811 +00:00 [INF] Worker running at: "2024-04-19T03:49:20.8115876+00:00"
+2024-04-19 03:49:21.811 +00:00 [INF] Worker running at: "2024-04-19T03:49:21.8119549+00:00"
+2024-04-19 03:49:22.812 +00:00 [INF] Worker running at: "2024-04-19T03:49:22.8123259+00:00"
+2024-04-19 03:49:23.812 +00:00 [INF] Worker running at: "2024-04-19T03:49:23.8126642+00:00"
+2024-04-19 03:49:24.813 +00:00 [INF] Worker running at: "2024-04-19T03:49:24.8130405+00:00"
+2024-04-19 03:49:25.813 +00:00 [INF] Worker running at: "2024-04-19T03:49:25.8133700+00:00"
+2024-04-19 03:49:26.813 +00:00 [INF] Worker running at: "2024-04-19T03:49:26.8136896+00:00"
+2024-04-19 03:49:27.814 +00:00 [INF] Worker running at: "2024-04-19T03:49:27.8140795+00:00"
+2024-04-19 03:49:28.814 +00:00 [INF] Worker running at: "2024-04-19T03:49:28.8144536+00:00"
+2024-04-19 03:49:28.930 +00:00 [INF] Application is shutting down...
+2024-04-19 03:49:28.932 +00:00 [DBG] Hosting stopping
+2024-04-19 03:49:28.939 +00:00 [DBG] Hosting stopped
+2024-04-19 03:49:54.744 +00:00 [DBG] Hosting starting
+2024-04-19 03:49:54.815 +00:00 [INF] Worker running at: "2024-04-19T03:49:54.8110568+00:00"
+2024-04-19 03:49:54.821 +00:00 [INF] Staring FileWatch on folder
+2024-04-19 03:49:54.822 +00:00 [INF] File Watch Started
+2024-04-19 03:49:54.826 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-19 03:49:54.826 +00:00 [INF] Hosting environment: Development
+2024-04-19 03:49:54.826 +00:00 [INF] Content root path: /workspace/dotnetfolder/workersample
+2024-04-19 03:49:54.827 +00:00 [DBG] Hosting started
+2024-04-19 03:50:12.311 +00:00 [INF] file Created :./monitorfolder/345.csv
+2024-04-19 03:50:26.973 +00:00 [INF] file Created :./monitorfolder/log.txt

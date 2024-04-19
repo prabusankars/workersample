@@ -4,9 +4,13 @@ public class Worker : BackgroundService
 {
     private readonly ILogger<Worker> _logger;
 
-    public Worker(ILogger<Worker> logger)
+    //Inject FileWatchService
+    private readonly FileWatchService fwService;
+
+    public Worker(ILogger<Worker> logger, FileWatchService _fws)
     {
         _logger = logger;
+        fwService = _fws;
     }
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -17,7 +21,13 @@ public class Worker : BackgroundService
             {
                 _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
             }
-            await Task.Delay(1000, stoppingToken);
+
+            if(!fwService.FileWatchStarted){
+                _logger.LogInformation("Staring FileWatch on folder");
+                await fwService.StartFileWatcher();
+            }
+
+            await Task.Delay(60000, stoppingToken);
         }
     }
 }
